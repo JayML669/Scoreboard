@@ -114,7 +114,7 @@ public class Scoreboard extends AppCompatActivity {
         minusScore.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                moneyAwarded=moneyAwarded+15;
+                moneyAwarded=moneyAwarded-15;
             }
         });
 
